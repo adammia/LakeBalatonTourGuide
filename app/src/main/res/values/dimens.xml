@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">18dp</dimen>
+    <dimen name="nav_header_height">192dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <!--CardView-->
+    <dimen name="card_margin">12dp</dimen>
+    <dimen name="card_album_radius">2dp</dimen>
+    <dimen name="navd_cover_height">192dp</dimen>
+    <dimen name="theme_title_padding1">6dp</dimen>
+    <dimen name="theme_title_padding2">5dp</dimen>
+    <dimen name="card_padding_bottom">5dp</dimen>
+</resources>

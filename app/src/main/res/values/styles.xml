@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Card Style -->
+    <style name="CardImageStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/navd_cover_height</item>
+        <item name="android:layout_centerHorizontal">false</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:clickable">true</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="CardTextStyle" parent="TextAppearance.AppCompat.Title.Inverse">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/imageView</item>
+        <item name="android:background">@color/background</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingBottom">@dimen/theme_title_padding2</item>
+        <item name="android:paddingLeft">@dimen/theme_title_padding1</item>
+        <item name="android:paddingRight">@dimen/theme_title_padding1</item>
+        <item name="android:paddingTop">@dimen/theme_title_padding1</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textColor">@color/theme_title</item>
+        <item name="android:textIsSelectable">true</item>
+        <item name="android:textStyle">normal|bold</item>
+    </style>
+
+    <style name="CardDescStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/titleText</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:paddingBottom">@dimen/card_padding_bottom</item>
+        <item name="android:paddingLeft">@dimen/theme_title_padding1</item>
+        <item name="android:paddingRight">@dimen/theme_title_padding1</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textIsSelectable">true</item>
+    </style>
+
+
+</resources>
